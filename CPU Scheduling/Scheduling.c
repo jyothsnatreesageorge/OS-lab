@@ -21,8 +21,7 @@ void print(struct proc p[],int n)
 void rr(struct proc p[],int n,int t)
 {
    printf("Round Robin");
-   int
-i,j,completed=0,curr=0,vis[n],queue[100],f=0,r=0;
+   int i,j,completed=0,curr=0,vis[n],queue[100],f=0,r=0;
    for(i=0;i<n;i++)
    {
       p[i].rem=p[i].bt;
